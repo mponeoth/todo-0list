@@ -1,0 +1,182 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin-Sans',sans-serif;
+    color: black;
+  }
+
+    .hero{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+   
+
+    input[id="fname"]{
+        width: 180px;
+      }
+
+      li[class="fname"]{
+    
+        border:  solid 1px #ccc;
+      }
+
+      li{
+       list-style-type:none ;
+       display: inline;
+       margin-top: 10px;
+      }
+
+    .hero{
+        width: 400px;
+        height: 120px;
+        background-color:#ffc107;
+        color: black;
+        text-align: center;  
+        padding: 50px;
+        margin:auto;
+        margin-top: 80px;
+        border-radius: 20px;
+        display: flex;
+
+    }
+
+
+    .ustdiv{
+      width: 450px;
+      height: 160px;
+      background-color:white;
+      color: black;
+      padding: 15px;
+      margin:auto;
+      margin-top: 40px;
+      border-radius: 4px;
+    }
+
+
+    .yeniDiv{
+        width: 220px;
+        height: 38px;
+        background-color: #17a2b8;
+        border-radius: 8px;
+     }
+
+    input{
+        width: 100%;
+        border-radius: 5px;
+        color: black;
+     }
+
+     input[class="checkbox-btn"]{
+      width:15px;
+      height:15px;
+      border-radius:25px;
+      margin-right:20px;
+     }
+
+     input[class="checkbox-btn"]:checked ~ li {
+      text-decoration: line-through;
+      color: gray;
+     }
+
+  
+     button{
+      background-color: #17a2b8;
+      color: white;
+      border-radius: 5px;
+      border: solid 1px #ccc;
+      width: 24px;
+      height: 24px;
+      outline: none;
+      transition: all 500ms ease-in-out;
+     }
+
+   
+
+     button:hover{
+      transition: all 500ms ease-in-out;
+     }
+
+     button:hover{
+      background-color:#ccc;
+      transition: all 500ms;
+      transform: rotate(5px,5px);
+     }
+
+     .kaybol{
+        transform: scale(0);
+    }
+
+    
+
+    .yeniDiv{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+.todo_save{
+  background-color: rgb(61, 164, 224);
+  display: none;
+  padding: 2px 4px;
+  font-size: 0.9rem;
+ 
+  border-radius: 4px 4px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  pointer-events: all;
+
+ }
+
+.todo_editInput{
+  
+   width: 140px;
+   height: 20px;
+    margin-left: 15px;
+   border-radius: 3px;
+    border: solid 1px black;
+    display: none;  
+    pointer-events: auto;
+    transition: width 120ms, height 140ms;
+    transition: 0.3s ease all;
+    pointer-events: all;
+    background-color: white;
+ }
+
+
+
+.todo_save:hover{
+  background-color: #17a2b8;
+}
+
+ 
+
+.todo_save{
+  width: 50px;
+  height: 22px;
+  margin-bottom:2px ;
+  border-radius: 4px;
+  display: inline;
+  background-color: red;
+  display: none;
+}
+
+  .leftDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+
+.blockla{
+display: none;
+ }
+
+.show{
+  display: block;
+ }
+ 
+
